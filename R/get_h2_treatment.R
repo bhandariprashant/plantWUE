@@ -17,13 +17,6 @@
 #'
 #' @export
 get_h2_treatment <- function(obj, pheno.col.no) {
-  library(lme4)
-  library(tidyverse)
-  library(data.table)
-  library(foreach)
-  library(doParallel)
-  library(ggsci)
-  library(bigsnpr)
 
   # Wrap the code inside tryCatch
   tryCatch({
